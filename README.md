@@ -8,3 +8,4 @@ This is a repository that contains JavaScript Projects that I have worked on so 
 2. [Rock Paper Scissors Game]
 3. [Music Player]
 4. [Date Formatter]
+5. [Palindrome Checker]
