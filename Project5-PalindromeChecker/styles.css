@@ -30,8 +30,8 @@ main {
   justify-content: center;
   background-color: var(--primary-color);
   width: 500px;
-  height: 500px;
-  border-radius: 50px 50px 50px 0;
+  height: 600px;
+  border-radius: 50px;
   gap: 50px;
 }
 
@@ -41,6 +41,7 @@ h1 {
   background-color: var(--secondary-color);
   padding: 20px;
   border-radius: 50px 50px 50px 0;
+  box-shadow: 0 0 10px 10px var(--background-color);
 }
 
 #pal-container {
@@ -50,8 +51,9 @@ h1 {
   gap: 10px;
   background-color: var(--secondary-color);
   padding: 30px;
-  border-radius: 50px 50px 50px 0;
+  border-radius: 50px 50px 50px 50px;
   color: var(--background-color);
+  box-shadow: 0 0 10px 10px var(--background-color);
 }
 
 #text-input {
@@ -59,8 +61,9 @@ h1 {
   height: 30px;
   padding: 5px;
   border: none;
-  border-bottom: 2px solid var(--background-color);
+  border: 2px solid var(--background-color);
   text-align: center;
+  border-radius: 50px 50px 0px 50px;
 }
 
 #check-btn {
@@ -80,4 +83,13 @@ h1 {
 
 #check-btn:active {
   background-color: red;
+}
+
+#info {
+  background-color: var(--secondary-color);
+  color: var(--background-color);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 50px 0px 50px 50px;
+  box-shadow: 0 0 10px 10px var(--background-color);
 }
