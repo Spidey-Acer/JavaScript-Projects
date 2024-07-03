@@ -1,0 +1,100 @@
+:root {
+  /* Colors */
+  --background-color: #0b0a52;
+  --secondary-color: #ffffff;
+  --primary-color: rgb(59, 64, 110);
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--secondary-color);
+  font-size: 1.125rem;
+  line-height: 1.6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-color);
+  width: 500px;
+  height: 600px;
+  border-radius: 50px;
+  gap: 50px;
+}
+
+h1 {
+  font-size: 3rem;
+  color: var(--background-color);
+  background-color: var(--secondary-color);
+  padding: 20px;
+  border-radius: 50px 50px 50px 0;
+  box-shadow: 0 0 10px 10px var(--background-color);
+}
+
+#pal-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--secondary-color);
+  padding: 30px;
+  border-radius: 50px 50px 50px 50px;
+  color: var(--background-color);
+  box-shadow: 0 0 10px 10px var(--background-color);
+}
+
+#text-input {
+  width: 300px;
+  height: 30px;
+  padding: 5px;
+  border: none;
+  border: 2px solid var(--background-color);
+  text-align: center;
+  border-radius: 50px 50px 0px 50px;
+}
+
+#check-btn {
+  width: 100px;
+  height: 30px;
+  background-color: var(--background-color);
+  color: var(--secondary-color);
+  border: none;
+  border-radius: 50px 50px 50px 0;
+  cursor: pointer;
+}
+
+#check-btn:hover {
+  background-color: var(--primary-color);
+  cursor: pointer;
+}
+
+#check-btn:active {
+  background-color: red;
+}
+
+#info {
+  background-color: var(--secondary-color);
+  color: var(--background-color);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 50px 0px 50px 50px;
+  box-shadow: 0 0 10px 10px var(--background-color);
+  text-align: center;
+}
+
+#result span {
+  color: red;
+}
