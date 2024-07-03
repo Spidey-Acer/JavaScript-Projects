@@ -63,7 +63,7 @@ h1 {
   text-align: center;
 }
 
-#check-button {
+#check-btn {
   width: 100px;
   height: 30px;
   background-color: var(--background-color);
@@ -73,11 +73,11 @@ h1 {
   cursor: pointer;
 }
 
-#check-button:hover {
+#check-btn:hover {
   background-color: var(--primary-color);
   cursor: pointer;
 }
 
-#check-button:active {
+#check-btn:active {
   background-color: red;
 }
