@@ -18,18 +18,24 @@ const palindromeChecker = (inputTxt) => {
   let originalTxt = removeNonAlphanumerics(inputTxt);
 
   let reversedText = removeNonAlphanumerics(
-    inputTxt.split("").reverse().join("")
+    originalTxt.split("").reverse().join("")
   );
 
-  if (originalTxt === reversedText) {
-    return `${inputTxt} is a palindrome`;
-  } else {
-    return `${inputTxt} is not a palindrome`;
-  }
-
-  return reversedText;
+  return originalTxt === reversedText;
 };
 
-console.log(palindromeChecker("ii$ffff^cdf345GGGG"));
+checkButton.addEventListener("click", () => {
+  let enteredText = inputText.value;
 
-console.log(palindromeChecker("pep"));
+  let isPalindrome = palindromeChecker(enteredText);
+
+  // console.log("MiCasa")
+  // console.log(enteredText)
+  console.log(isPalindrome);
+
+  if (isPalindrome === true) {
+    result.innerHTML = `<span>${enteredText} is a palindrome</span>`;
+  } else {
+    result.innerHTML = `<span>${enteredText} is not a palindrome</span>`;
+  }
+});

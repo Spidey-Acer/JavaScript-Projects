@@ -72,3 +72,12 @@ h1 {
   border-radius: 50px 50px 50px 0;
   cursor: pointer;
 }
+
+#check-button:hover {
+  background-color: var(--primary-color);
+  cursor: pointer;
+}
+
+#check-button:active {
+  background-color: red;
+}
