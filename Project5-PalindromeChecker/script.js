@@ -28,9 +28,9 @@ checkButton.addEventListener("click", () => {
   console.log(isPalindrome);
 
   if (isPalindrome === true) {
-    result.innerHTML = `<span>${enteredText} is a palindrome</span>`;
+    result.innerHTML = `<div><span>${enteredText}</span> is a palindrome</div>`;
   } else {
-    result.innerHTML = `<span>${enteredText} is not a palindrome</span>`;
+    result.innerHTML = `<div><span>${enteredText}</span> is not a palindrome</div>`;
   }
 
   if (enteredText.length === 0) {
