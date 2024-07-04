@@ -9,3 +9,4 @@ This is a repository that contains JavaScript Projects that I have worked on so 
 3. [Music Player]
 4. [Date Formatter]
 5. [Palindrome Checker]
+6. [Football-Team Cards]
