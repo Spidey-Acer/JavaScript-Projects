@@ -40,7 +40,7 @@ const updateTaskContainer = () => {
           <p><strong>Date:</strong> ${date}</p>
           <p><strong>Description:</strong> ${description}</p>
           <button onclick="editTask(this)" type="button" class="btn">Edit</button>
-          <button onclick="deleteTask(this)" type="button" class="btn">Delete</button> 
+          <button onclick="deleteTask(this)" type="button" class="btn">Delete</button>
         </div>
       `;
   });
@@ -50,6 +50,9 @@ const deleteTask = (buttonEl) => {
   const dataArrIndex = taskData.findIndex(
     (item) => item.id === buttonEl.parentElement.id
   );
+
+  buttonEl.parentElement.remove();
+  taskData.splice(dataArrIndex, 1);
 };
 
 const reset = () => {
