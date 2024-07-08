@@ -55,12 +55,13 @@ h1 {
   background-image: linear-gradient(#1b6d0f, #26e41f);
   border-color: var(--golden-yellow);
   border-width: 3px;
-  border-end-end-radius: 60px;
-  border-end-start-radius: 60px;
+  border-radius: 10px;
+  padding: 5px;
 }
 
 .btn:hover {
   background-image: linear-gradient(#41ee2a, #0af116);
+  color: white;
 }
 
 .large-btn {
@@ -88,7 +89,7 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: var(--white);
-  border-radius: 5px;
+  border-radius: 15px;
   padding: 15px;
   width: 300px;
   height: 350px;
@@ -158,6 +159,9 @@ h1 {
 
 .task {
   margin: 5px 0;
+  border: 2px solid var(--golden-yellow);
+  border-radius: 10px;
+  padding: 5px;
 }
 
 .hidden {
@@ -185,5 +189,7 @@ h1 {
   #description-input {
     padding: 5px;
     margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0 var(--golden-yellow);
   }
 }
