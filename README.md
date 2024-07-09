@@ -53,7 +53,7 @@ Feel free to explore each project and see the code behind them. Contributions an
 
 1. Clone this repository:
    ```sh
-   git clone https://github.com/yourusername/JavaScript-Projects.git
+   git clone https://github.com/peter-kibet/JavaScript-Projects.git
    ```
 2. Navigate to the project directory:
    ```sh
