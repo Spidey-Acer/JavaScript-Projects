@@ -44,6 +44,7 @@ h1 {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  box-shadow: 0 0 5px 0 var(--golden-yellow);
 }
 
 .btn {
@@ -52,15 +53,25 @@ h1 {
   margin: 10px;
   color: var(--dark-grey);
   background-color: var(--golden-yellow);
-  background-image: linear-gradient(#1b6d0f, #26e41f);
+  background-image: linear-gradient(135deg, #1b6d0f, #26e41f, #30ff57, #009933);
+
+  /* background-image: linear-gradient(135deg, #1b6d0f, #26e41f, #30ff57, #ff5733, #e41f1f); */
+
   border-color: var(--golden-yellow);
   border-width: 3px;
   border-radius: 10px;
   padding: 5px;
+  box-shadow: 0 0 5px 0 var(--golden-yellow);
 }
 
 .btn:hover {
-  background-image: linear-gradient(#41ee2a, #0af116);
+  background-image: linear-gradient(
+    -135deg,
+    #1b6d0f,
+    #26e41f,
+    #30ff57,
+    #009933
+  );
   color: white;
 }
 
@@ -96,6 +107,7 @@ h1 {
   flex-direction: column;
   justify-content: space-between;
   overflow: auto;
+  box-shadow: 0 0 5px 0 var(--golden-yellow);
 }
 
 .task-form-header {

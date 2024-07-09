@@ -9,7 +9,7 @@
 :root {
   --dark-grey: #0a0a23;
   --light-grey: #f5f6f7;
-  --white: #ffffff;
+  --white: #e41f1f;
   --black: #000;
 }
 
@@ -55,6 +55,14 @@ footer {
   margin: 1.2rem;
   width: 300px;
   border-radius: 15px;
+  border: 3px solid var(--white);
+  box-shadow: 0 0 5px 0 #ff5733;
+}
+
+#players {
+  background-color: var(--light-grey);
+  border-radius: 10px;
+  border: 3px solid var(--white);
 }
 
 @media (max-width: 768px) {
