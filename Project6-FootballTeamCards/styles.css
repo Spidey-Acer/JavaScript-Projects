@@ -19,6 +19,10 @@ body {
   padding: 10px;
 }
 
+.title {
+  text-transform: uppercase;
+}
+
 .title,
 .options-label,
 .team-stats,
