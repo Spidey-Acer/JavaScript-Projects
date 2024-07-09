@@ -80,5 +80,5 @@ Thank you for visiting my JavaScript Projects repository. I hope you find these 
 
 For any questions or inquiries, please reach out to me at:
 
-- Email: your.email@example.com
-- GitHub: [yourusername](https://github.com/yourusername)
+- Email: peter.j.kibet@gmail.com
+- GitHub: [peter-kibet](https://github.com/peter-kibet)
