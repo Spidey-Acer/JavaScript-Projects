@@ -9,8 +9,8 @@
 :root {
   --very-dark-blue: #0a0a23;
   --white: #ffffff;
-  --yellow: #f1be32;
-  --golden-yellow: #feac32;
+  --yellow: #ff5733;
+  --golden-yellow: #e41f1f;
 }
 
 body {
@@ -29,9 +29,20 @@ h1 {
   margin: 10px;
   color: var(--very-dark-blue);
   background-color: var(--golden-yellow);
-  background-image: linear-gradient(#fecc4c, #ffac33);
-  border-color: var(--golden-yellow);
-  border-width: 3px;
+  background-image: linear-gradient(
+    135deg,
+    #ff5733,
+    #ff3d23,
+    #ff2323,
+    #e41f1f,
+    #c91616
+  );
+  border: none;
+  border-radius: 20px;
+  height: 40px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  box-shadow: 0 0 15px 0 var(--golden-yellow);
 }
 
 .btn:hover {

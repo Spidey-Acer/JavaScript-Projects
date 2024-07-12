@@ -2,10 +2,10 @@
   /* colors */
   --primary-color: #dfdfe2;
   --secondary-color: #ffffff;
-  --app-background-color: #4d4d62;
+  --app-background-color: #140702;
   --background-color: #1b1b32;
-  --foreground-color: #3b3b4f;
-  --highlight-color: #f1be32;
+  --foreground-color: #1e1e30;
+  --highlight-color: #e41f1f;
 
   /* font sizes */
   --root-font-size: 16px;
@@ -55,6 +55,7 @@ ul {
   width: 450px;
   background-color: var(--background-color);
   border: 3px solid var(--foreground-color);
+  border-radius: 20px;
 }
 
 .player {
